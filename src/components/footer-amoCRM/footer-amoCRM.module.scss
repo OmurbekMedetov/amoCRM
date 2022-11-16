@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.company {
+    color: #656566;
+    margin: 35px 0 20px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+}
+.program {
+    color: #E4E5EA;
+    margin: 0 0 10px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.vacation {
+    color: #E4E5EA;
+    margin: 0 0 65px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;  
+}
+.menu {
+    color: #656566;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 0 20px 16px;
+}
+.serviceUl {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+    .serviceLi {
+        color: #E4E5EA;
+        list-style: none;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        margin: 0 10px 10px 15px;
+        width: 123px;
+    }
+}
+.contact {
+    color: #656566;
+    font-weight: 700;
+    line-height: 15px;
+    font-size: 12px;
+    margin: 20px 0 20px 15px;
+}
+.number {
+    background: none;
+    border: none;
+    display: block;
+    color: #E4E5EA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 10px 15px;
+}
+.netWork {
+    border: none;
+    background: none;
+    margin: 0 0 14px 15px;
+}
+.address {
+    color: #E4E5EA;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 50px 15px;
+}
+.welbex {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E4E5EA;
+    margin: 0 0 5px 15px;
+}
+.confidentionally {
+    color: #E4E5EA;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    margin: 0 0 60px 15px;
+}
+@media(min-width: 350px) {
+    .serviceLi {
+        cursor: pointer;
+    }
+    .company {
+        text-align: center;
+    }
+    .program {
+        text-align: center;
+    }
+    .vacation {
+        text-align: center;
+    }
+    .menu {
+        text-align: center;
+    }
+    .contact {
+        text-align: center;
+    }
+    .number {
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    .telegram {
+        cursor: pointer;
+    }
+    .phone {
+        cursor: pointer;
+    }
+    .whatsapp {
+        cursor: pointer;
+    }
+    .connects {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .address {
+        text-align: center;
+    }
+    .welbex {
+        text-align: center;
+    }
+    .confidentionally {
+        text-align: center;
+    }
+}
+@media(min-width: 1440px) {
+    .company{
+        text-align: inherit;
+        margin: 50px 0 20px 140px
+    }
+    .program {
+        text-align: inherit;
+        margin: 0 0 10px 140px
+    }
+    .vacation {
+        text-align: inherit;
+        margin-left: 140px;
+    }
+    .menu {
+      transform: translate(-250px, -145px);
+    }
+    .service {
+        transform: translate(435px, -145px);
+        width: 300px;
+    }
+    .contact {
+        transform: translate(500px, -350px);
+    }
+    .number {
+        transform: translate(480px, -360px);
+    }
+    .telegram {
+        transform: translate(500px, -330px);
+    }
+    .phone {
+        transform: translate(490px, -330px);
+    }
+    .whatsapp {
+        transform: translate(480px, -330px);
+    }
+    .address {
+        transform: translate(417px, -360px);
+    }
+    .welbex {
+        transform: translate(422px, -340px);
+    }
+    .confidentionally {
+        transform: translate(440px, -340px);
+        margin-bottom: 0;
+    }
+     footer {
+        height: 315px;
+    }
+    .connects {
+        height: 0;
+        margin: 0;
+    }
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+.service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    .span {
+        color:#E4E5EA;
+        cursor: pointer;
+    }
+    .services {
+        border: none;
+        background: none;
+    }
+    .serviceCart {
+        list-style: none;
+    }
+    .serviceCartText {
+        text-transform: uppercase;
+        color: #E4E5EA;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;;
+    }
+}
+.serviceCart:first-child,
+.serviceCartText:nth-child(5),
+.serviceCart:nth-child(6),
+.serviceCart:nth-child(7),
+.serviceCart:nth-child(8),
+.serviceCart:nth-child(9),
+.serviceCart:nth-child(10) {
+    display: none;
+}
+@media(min-width: 1440px) {
+    .serviceCart:first-child,
+    .serviceCartText:nth-child(5),
+    .serviceCart:nth-child(6),
+    .serviceCart:nth-child(7),
+    .serviceCart:nth-child(8),
+    .serviceCart:nth-child(9),
+    .serviceCart:nth-child(10) {
+        display: inline;
+    }
+    .service {
+        height: 100px;
+        margin-top: 50px;
+        .serviceCart:first-child {
+            align-self: flex-end;
+            width: 165px;
+            margin-left: 150px;
+        }
+        .serviceCart:nth-child(6) {
+            margin-right: 137px;
+        }
+        .serviceCart:nth-child(10) {
+            margin-right: 150px;
+        }
+        .serviceCartText {
+            text-transform: none !important;
+        }
+        .welbexText {
+            color: #E4E5EA;
+            font-weight: 300;
+            font-size: 10px;
+            line-height: 12px;
+        }
+        .phone {
+            color: #E4E5EA;
+        }
+    }
+}
+

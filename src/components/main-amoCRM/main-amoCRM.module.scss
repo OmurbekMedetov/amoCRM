@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+.main {
+    height: 445px;
+    backdrop-filter: blur(7.5px);
+    background: radial-gradient(circle, rgba(71,2,36,1) 0%, rgba(8,0,4,1) 1%, rgba(32,21,25,1) 100%);
+    .price {
+        padding-top: 40px;
+        padding-left: 14px; 
+        color: #E4E5EA;
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 44px;
+        min-width: 272px;
+    }
+    .welbex {
+        display: block;
+        font-size: 36px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+    }
+    .priceText {
+        color: #E4E5EA;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        min-width: 271px;
+        margin: 15px 0 45px 0;
+        padding-left: 14px;
+    }
+    .text {
+        color: #E4E5EA;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 500;
+        min-width: 272px;
+        .consultation {
+            font-weight: 900;
+            background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;           
+        }
+        margin: 0 0 20px 14px;
+    }
+}
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    .amoCRM {
+        color:#E4E5EA;
+        font-size: 13px;
+        margin: 0 0 14px 10px;
+        line-height: 16px;
+    }
+    .line {
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+}
+.redBall {
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    opacity: 0.5;
+}
+.purpleBall {
+    position: absolute;
+    top: 220px;
+    right: -30px;
+    opacity: 0.5;
+}
+.bigRedBall {
+    display: none;
+}
+.aside, 
+.destopText {
+    display: none;
+}
+@media(min-width: 350px) {
+    .price {
+        width: 100%;
+        text-align: center;
+    }
+    .priceText {
+        width: 100%;
+        text-align: center;
+    }
+    .text {
+        width: 100%;
+        text-align: center;
+    }
+    .information {
+        justify-content: center;
+    }
+}
+@media(min-width: 1440px) {
+    .bigRedBall {
+        display: block;
+        position: absolute;
+        top: -100px;
+        left: 500px;
+    }
+    .purpleBall {
+        top: -200px;
+        left: 820px;
+    }
+    .redBall {
+        top: 360px;
+        left: 780px;
+    }
+    .destopText {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        width: 262px;
+        height: 61px;
+        background: #4077F3;
+        color: #E4E5EA;
+        display: block;
+        margin: 100px 0 0 830px;
+        cursor: pointer;
+    }
+    .amoCRM {
+        display: none;
+    }
+    .aside {
+        position: absolute;
+        top: 100px;
+        left: 910px;
+        width: 340px;
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: #E4E5EA;
+        display: block;
+    }
+    .desktop {
+        margin-left: 20px;
+        margin-bottom: 0;
+        text-align: end;
+        width: 150px;
+        height: 80px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .desktopSpan {
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 6px;
+    }
+    .main {
+        background: none;
+    }
+    .price {
+        font-size: 48px !important;
+        width: 362px;
+        text-align: inherit;
+        margin: 50px 0 0 140px;
+        .welbex {
+            margin-top: 7px;
+            font-size: 48px;
+        }
+    }
+    .priceText {
+        width: 275px;
+        text-align: inherit;
+        margin: 30px 0 0 140px !important;
+    }
+    .text {
+        text-align: end;
+        width: 291px;
+        position: absolute;
+        top: 50px;
+        left: 945px;
+    }
+}
